@@ -1,0 +1,158 @@
+﻿body {
+	background-color: #424242;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+	font-family: Raleway;
+}
+
+#container {
+	background-color: #666666;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#header {
+	
+}
+
+#company_name_logo {
+	text-decoration: none;
+	font-size: 85%;
+}
+
+.logo {
+	text-decoration: none;
+	color: #E6E6E6;
+}
+
+img {
+	border-style: none;
+}
+
+/*===========================*/
+/* Nav Menu*/
+ul#nav,ul.sub1,ul.sub2 {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0;
+	list-style-type: none;
+	/*outline: 1px solid red;*/
+}
+
+ul#nav li { /*border: 1px solid red;*/
+	width: 125px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 4px;
+}
+
+ul#nav a {
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	heidht: 25px;
+	line-height: 25px;
+	background-color: #666666;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	color: #000;
+	font-size: 85%;
+}
+
+ul#nav .sub1 li { /*border: 1px solid green;*/
+	margin-top: 0;
+}
+
+ul#nav .sub1 a {
+	margin-top: 3px;
+}
+
+ul#nav .sub2 a {
+	margin-left: 10px;
+}
+
+ul#nav li:hover>a {
+	background-color: #CFC;
+}
+
+ul#nav li:hover a:hover {
+	background-color: #FF0;
+}
+
+ul#nav ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: 0;
+}
+
+ul#nav ul.sub2 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 126px;
+}
+
+ul#nav li:hover .sub1 {
+	display: block;
+}
+
+ul#nav .sub1 li:hover .sub2 {
+	display: block;
+}
+
+.down_arrow {
+	font-size: 11pt;
+	position: absolute;
+	top: 5px;
+	right: 4px;
+}
+
+.right_arrow {
+	font-size: 14pt;
+	position: absolute;
+	top: 5px;
+	right: 4px;
+}
+
+/* Nav Menu*/
+/*===========================*/
+#page_header {
+	border-bottom: 2px solid #E6E6E6;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-top: 5em;
+}
+
+#page_header_content {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 200%;
+	color: #E6E6E6;
+}
+
+p {
+	font-size: 100%;
+	color: #E6E6E6;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-size: 100%;
+	margin-top: 10px;
+	color: #E6E6E6;
+}
+
+.hyperlink {
+	color: #E6E6E6;
+}
