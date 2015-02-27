@@ -8,6 +8,10 @@
 	font-family: Raleway;
 }
 
+a {
+	word-wrap: break-word;
+}
+
 a:link,a:visited {
 	color: #444;
 }
