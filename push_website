@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo cp -r /home/webuser/workspace/website/ /var/www/html/
+
