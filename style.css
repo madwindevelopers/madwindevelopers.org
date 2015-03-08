@@ -204,3 +204,26 @@ p {
 	margin-right: auto;
 	width: 400px;
 }
+
+#external_card {
+	background-color: #4CAF50;
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+}
+
+#external_card img {
+	height: 50px;
+	padding-right: 30px;
+}
+
+#external_card p {
+	font-size: 80%;
+	line-height: auto;
+}
+
+.external_card_text {
+	padding-top: 8px;
+	display: inline-block;
+	vertical-align: middle;
+}
