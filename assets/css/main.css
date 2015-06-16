@@ -1,0 +1,187 @@
+body {
+    background-color: #f2f2f2;
+    font-stretch: normal;
+    font: 300 16px Lato, sans-serif;
+    color: #555;
+    font-smoothing: antialiased;
+    overflow-scrolling: touch
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #2c3e50;
+}
+h1 {
+    font-size: 40px
+}
+h3 {
+    font-weight: 400
+}
+h4 {
+    color: #95a5a6;
+    font-weight: 400;
+    font-size: 20px
+}
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #95A5A6;
+}
+.centered {
+    text-align: center
+}
+a {
+    color: #2980b9;
+    word-wrap: break-word;
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+    -webkit-transition-delay: initial, initial;
+    -moz-transition-delay: initial, initial;
+    -o-transition-delay: initial, initial;
+    transition-delay: initial, initial;
+    -webkit-transition-property: color, background;
+    -moz-transition-property: color, background;
+    -o-transition-property: color, background;
+    transition-property: color, background
+}
+a:focus,
+a:hover {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0
+}
+a::after,
+a::before {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+    -webkit-transition-delay: initial, initial;
+    -moz-transition-delay: initial, initial;
+    -o-transition-delay: initial, initial;
+    transition-delay: initial, initial;
+    -webkit-transition-property: color, background;
+    -moz-transition-property: color, background;
+    -o-transition-property: color, background;
+    transition-property: color, background
+}
+hr {
+    display: block;
+    height: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border: 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+pre {
+	white-space: pre;			/* CSS 2.0 */
+	white-space: pre-wrap;		/* CSS 2.1 */
+	white-space: pre-line;		/* CSS 3.0 */
+	white-space: -pre-wrap;		/* Opera 4-6 */
+	white-space: -o-pre-wrap;	/* Opera 7 */
+	white-space: -moz-pre-wrap;	/* Mozilla */
+	white-space: -hp-pre-wrap;	/* HP Printers */
+	white-space: break-word;	/* IE 5+ */
+}
+
+.navbar-default {
+    background-color: #34495e;
+    border: transparent;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #fff
+}
+.mt {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+.form-control {
+    height: 42px;
+    font-size: 18px;
+    width: 280px
+}
+i {
+    margin: 8px;
+    color: #3498db
+}
+#headerwrap {
+    background-color: #27ae60;
+    margin-top: -20px;
+    padding-top: 100px;
+    background-position-x: 50%;
+    background-attachment: relative;
+    background-position-y: 50%;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+#headerwrap h1 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 1px
+}
+#headerwrap p {
+    color: #ddd;
+}
+#headerwrap a {
+    color: #fff;
+}
+#headerwrap a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#headerwrap a:visited {
+    color: #fff;
+}
+.navbar-sub-list {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.navbar-sub-list .navbar-sub-item {
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 12px
+}
+.navbar-sub-item a:hover {    
+  color: #333;
+}
+.img-title-header img {
+    margin: 0px 20px 0px 0px;
+}
+.img-title-header a {
+    color: #2c3e50;
+}
+.col-centered{
+    margin: 0 auto;
+    float: none;
+}
+.container {
+    overflow-x: hidden;
+}
