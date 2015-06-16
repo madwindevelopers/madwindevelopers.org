@@ -193,8 +193,8 @@
 					android programming better. More refinements and additions are
 					continuously being built into the application with hopes of the
 					initial release soon. Stay tuned for more updates.... </br> </br> Check out
-					the source code on github:  <pre><a class = "hyperlink" href="https://github.com/madwindevelopers/carhud" target="_blank">https://github.com/madwindevelopers/carhud</a></pre><br><br>
-				<a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.madwin.carhud" target="_blank"> Download on Google Play </a></p>
+					the source code on github:  <pre><a class = "hyperlink" href="https://github.com/andrewrohde/MWCalc" target="_blank">https://github.com/andrewrohde/MWCalc</a></pre><br><br>
+				<a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.madwin.mwcalc" target="_blank"> Download on Google Play </a></p>
 			</div>
 			
 			<div class = "page-section col-sm-4" id = "mwbar">
@@ -208,22 +208,15 @@
 					image background version of the bar. This app is compatible only
 					with UCCW. More features will be added in the future. Follow the
 					link below to download from the play store. <br><br>
-				<a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.madwin.carhud" target="_blank"> Download on Google Play </a></p>
+				<a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.madwindevelopers.mwbar" target="_blank"> Download on Google Play </a></p>
 			</div>
 		
       </div>
     </div>
     <div id="contact" class="page-section container" style="background-color: #DFDFDF">
-      <div class="row centered">
+        <h1 class = "col-centered">Contact</h1>
+        <div class="row centered">
         <div>
-            
-          <div class="row">
-              
-            <div class="col-md-12">
-              <h1>Contact</h1>
-            </div>
-              
-          </div>
             <!--
           <div class="row">
             <div class="col-md-12">
@@ -265,33 +258,32 @@
       <hr>
     </div>
     <div id="external" class="page-section container">
+    <h1 class = "col-centered">External</h1>
       <div class="row centered">
-        <div class="col-md-12 col-lg-6 col-lg-offset-3">
-          <h1>External</h1>
-          <h3 class="img-title-header"><img align="middle" height="50px" src="assets/img/mwlogo_no_back_500_green.png">					<span>						<a href="http://review.madwindevelopers.org">						Gerrit Code Review						</a>					</span></h3>
+        <div class="col-md-12 col-lg-6 col-lg-offset-3">          <h3 class="img-title-header"><img align="middle" height="50px" src="assets/img/mwlogo_no_back_500_green.png">					<span>						<a href="http://review.madwindevelopers.org">						Gerrit Code Review						</a>					</span></h3>
           <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
         </div>
       </div>
         <hr>
     </div>
-    <div class="container">
-      <div class="row centered">
-        <div class="col-lg-6 col-lg-offset-3 col-md-12">
-          <form class="form-inline" role="form">
-            <h4>                            Mailing List                        </h4>
-            <p style>Enter your email address below to join our mailing list.</p>
+    <div class = "container">
+      <div class = "row centered">
+          
+          <form class = "form-inline" role="form">
+            <h4>Mailing List</h4>
+            <p>Enter your email address below to join our mailing list.</p>
           </form>
-        </div>
+          
       </div>
-      <div class="row centered">
-        <div class="col-lg-6">
-          <form class="form-inline" role="form">
-            <div class="form-group">
-              <input type="email" class="col-centered form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+      <div class = "row centered">
+          
+          <form class = "form-inline" role = "form" method = "post" action = "email_invite.php">
+            <div class = "form-group">
+              <input type = "email" class="col-centered form-control" id = "exampleInputEmail1" placeholder = "Enter your email address" name = "invite_email">
             </div>
-            <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+            <button type = "submit" value = "submit" name = "email_invite" class = "btn btn-warning btn-lg">Invite Me!</button>
           </form>
-        </div>
+          
       </div>
       <!-- /row -->
       <hr>
@@ -299,453 +291,20 @@
     <!-- /container -->
     <!--==/container==-->
     <!-- /container -->
-    <div class="container">
+    <div class="container"> <!-- footer placeholder -->
       <!-- /row -->
       <div class="row mt centered">
-        <!--/col-lg-4 -->
-        <!--/col-lg-4 -->
-        <!--/col-lg-4 -->
       </div>
       <!-- /row -->
     </div>
     <!-- /container -->
-    <!-- /container -->
       
-      
+
       
     <!-- Bootstrap core JavaScript==================================================- ->        <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-      <!--
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;" class="sh-hidden-element"></script>
-    <script type="text/javascript" class="sh-hidden-element">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script type="text/javascript">
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
-    <script id="hiddenlpsubmitdiv" style="display: none;"></script>
-    <script>
-      try {
-        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
-          var lastpass_f = document.forms[lastpass_iter];
-          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
-            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
-            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
-              continue;
-            }
-            lastpass_f.submit = function() {
-              var form = this;
-              var customEvent = document.createEvent("Event");
-              customEvent.initEvent("lpCustomEvent", true, true);
-              var d = document.getElementById("hiddenlpsubmitdiv");
-              if (d) {
-                for (var i = 0; i < document.forms.length; i++) {
-                  if (document.forms[i] == form) {
-                    if (typeof(d.innerText) != 'undefined') {
-                      d.innerText = i;
-                    } else {
-                      d.textContent = i;
-                    }
-                  }
-                }
-                d.dispatchEvent(customEvent);
-              }
-              form.lpsubmitorig2();
-            }
-          }
-        }
-      } catch (e) {}
-    </script>
--->
+
   </body>
 
 </html>
