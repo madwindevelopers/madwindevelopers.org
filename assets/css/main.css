@@ -98,7 +98,6 @@ pre {
 	white-space: -hp-pre-wrap;	/* HP Printers */
 	white-space: break-word;	/* IE 5+ */
 }
-
 .navbar-default {
     background-color: #34495e;
     border: transparent;
@@ -184,4 +183,8 @@ i {
 }
 .container {
     overflow-x: hidden;
+}
+.btn-warning {
+	background-color: #FF5722;
+	border-color: #FF5722;
 }
