@@ -218,27 +218,27 @@
         <div class="centered">
               <h3>Comment Form</h3>
         </div>
-
+<form role="form" method="post" action="email_comment.php">
         <div class = "row">
             <div class = "col-md-4 col-md-offset-2">
               <div class="form-group">
                 <label class="control-label">Name</label>
                 <div class="controls">
-                  <input type="text" class="form-control" placeholder="Name">
+                  <input type="text" name="name" class="form-control" placeholder="Name">
                 </div>
               </div>
 
               <div class="form-group">
                 <label class="control-label">Email</label>
                 <div class="controls">
-                  <input type="text" class="form-control" placeholder="Email">
+                  <input type="email" name="email" class="form-control" placeholder="Email">
                 </div>
               </div>
 
               <div class="form-group">
                 <label class="control-label">Subject</label>
                 <div class="controls">
-                  <input type="text" class="form-control" placeholder="Subject">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject">
                 </div>
               </div>
             </div>
@@ -250,19 +250,20 @@
               <div class="form-group">
                 <label class="control-label">Comment</label>
                 <div class="controls">
-                  <textarea class="form-control" placeholder="Comment" style="height: 180px; "></textarea>
+                  <textarea class="form-control" name="comments" placeholder="Comment" style="height: 180px; "></textarea>
                 </div>
               </div>
 
-              <a class="btn btn-primary">Submit</a>
+              <button class="btn btn-primary" type="submit" value="submit" name="email_comments" action="email_comment.php">Submit</button>
           </div>
         </div>
+        </form>
     <hr>
 
     <div id="external" class="page-section container">
     <h1 class = "col-centered">External</h1>
       <div class="row centered">
-        <div class="col-md-12 col-lg-6 col-lg-offset-3">          <h3 class="img-title-header"><img align="middle" height="50px" src="assets/img/mwlogo_no_back_500_green.png">					<span>						<a href="http://review.madwindevelopers.org">						Gerrit Code Review						</a>					</span></h3>
+        <div class="col-md-12 col-lg-6 col-lg-offset-3">          <h3 class="img-title-header"><img align="middle" height="50px" src="assets/img/mwlogo_no_back_500_green.png">					<span><a href="http://review.madwindevelopers.org">Gerrit Code Review</a></span></h3>
           <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
         </div>
       </div>
