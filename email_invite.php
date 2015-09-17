@@ -7,9 +7,9 @@ if(isset($_POST['email_invite'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "madwin@madwindevelopers.org";
+#    $email_to = "madwin@madwindevelopers.org";
  
-    $email_subject = "Mailing List Invite";
+#    $email_subject = "Mailing List Invite";
  
      
  
@@ -45,9 +45,9 @@ if(isset($_POST['email_invite'])) {
  
     $email_from = $_POST['invite_email']; // required
  
-     
- 
-    $error_message = "";
+    $file = 'email_list';
+
+#    $error_message = "";
  
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
@@ -67,21 +67,28 @@ if(isset($_POST['email_invite'])) {
  
   }
  
-    $email_message = "Form details below.\n\n";
+    $file = 'email_list';
+
+    $add_email = $email_from . "\r\n"
+
+    file_put_contents($file, $email_from, FILE_APPEND | LOCK_EX);
+ 
+
+#    $email_message = "Form details below.\n\n";
  
      
  
-    function clean_string($string) {
+#    function clean_string($string) {
  
-      $bad = array("content-type","bcc:","to:","cc:","href");
+#      $bad = array("content-type","bcc:","to:","cc:","href");
  
-      return str_replace($bad,"",$string);
+#      return str_replace($bad,"",$string);
  
-    }
+#    }
  
 
  
-    $email_message .= "Email: ".clean_string($email_from)."\n";
+#    $email_message .= "Email: ".clean_string($email_from)."\n";
  
 
  
@@ -89,13 +96,13 @@ if(isset($_POST['email_invite'])) {
  
 // create email headers
  
-$headers = 'From: '.$email_from."\r\n".
+#$headers = 'From: '.$email_from."\r\n".
  
-'Reply-To: '.$email_from."\r\n" .
+#'Reply-To: '.$email_from."\r\n" .
  
-'X-Mailer: PHP/' . phpversion();
+#'X-Mailer: PHP/' . phpversion();
  
-@mail($email_to, $email_subject, 'add to email list', $headers);  
+#@mail($email_to, $email_subject, 'add to email list', $headers);  
  
 ?>
  
