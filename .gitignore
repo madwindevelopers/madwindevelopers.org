@@ -4,3 +4,4 @@ push_website
 .metadata/*
 email_list
 .htaccess
+*.jar
