@@ -3,3 +3,4 @@ push_website
 .project
 .metadata/*
 email_list
+.htaccess
