@@ -194,7 +194,7 @@
       </div>
       <div class = "row centered">
           
-          <form class = "form-inline" role = "form" method = "post" action = "email_invite.php">
+          <form class = "form-inline" role = "form" method = "post" action = "add_to_email_list.php">
             <div class = "form-group">
               <input type = "email" class="col-centered form-control" id = "exampleInputEmail1" placeholder = "Enter your email address" name = "invite_email">
             </div>
