@@ -67,11 +67,13 @@ if(isset($_POST['email_invite'])) {
  
   }
  
-    $file = 'email_list';
+    $file = fopen("email_list", "a") or die("Unable to open file!");
 
-    $add_email = $email_from . "\r\n"
+    $add_email = $email_from . ";";
 
-    file_put_contents($file, $email_from, FILE_APPEND | LOCK_EX);
+    fwrite($file, $add_email);
+
+    fclose($file);
  
 
 #    $email_message = "Form details below.\n\n";
