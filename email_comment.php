@@ -4,15 +4,6 @@ if(isset($_POST['email_comments'])) {
  
      
  
-    // EDIT THE 2 LINES BELOW AS REQUIRED
- 
-    $email_to = "madwin@madwindevelopers.org";
- 
-    $email_subject = "Comment Madwindevelopers Website";
- 
-     
- 
-     
  
     function died($error) {
  
@@ -99,45 +90,26 @@ if(isset($_POST['email_comments'])) {
  
     $email_message = "Form details below.\n\n";
  
-     
- 
-    function clean_string($string) {
- 
-      $bad = array("content-type","bcc:","to:","cc:","href");
- 
-      return str_replace($bad,"",$string);
+
+	$combinedComment = "\nName: " . $name . "\nEmail: " . $email_from . "\nSubject: " . $subject . "\nComment: " . $comments . "\n=================================================\n"; 
+
+	$file = fopen("comment_list", "a") or die("Unable to open file!");
+
+	fwrite($file, $combinedComment);
+
+	$message = "WEBSITE_COMMENT;$email_from";
+	$command = "bash -c \"java -jar GmsSender.jar '$message'\"";
+	$output = shell_exec($command);     
+
+	fclose($file);
  
     }
  
-     
- 
-    $email_message .= "Name: ".clean_string($name)."\n";
- 
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    
-    $email_message .= "Subject: ".clean_string($subject)."\n";
- 
-    $email_message .= "Comments: ".clean_string($comments)."\n";
- 
-     
- 
-     
- 
-// create email headers
- 
-$headers = 'From: '.$email_from."\r\n".
- 
-'Reply-To: '.$email_from."\r\n" .
- 
-'X-Mailer: PHP/' . phpversion();
- 
-@mail($email_to, $email_subject, $email_message, $headers);  
  
 ?>
  
  
  
-<!-- include your own success html here -->
  
  
  
@@ -147,6 +119,6 @@ $headers = 'From: '.$email_from."\r\n".
  
 <?php
  
-}
+#}
  
 ?>
