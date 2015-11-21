@@ -72,7 +72,7 @@ if(isset($_POST['email_invite'])) {
 	}
     }
     if ($writeNewEmail == TRUE) {
-	$message = "EMAIL_INVITE;$add_email";
+	$message = "EMAIL_INVITE;;$add_email";
         $add_email = $add_email . ";";
 	fwrite($file, $add_email);
 	$command = "bash -c \"java -jar GmsSender.jar '$message'\"";

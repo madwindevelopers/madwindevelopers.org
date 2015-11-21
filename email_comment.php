@@ -97,7 +97,7 @@ if(isset($_POST['email_comments'])) {
 
 	fwrite($file, $combinedComment);
 
-	$message = "WEBSITE_COMMENT;$email_from";
+	$message = "WEBSITE_COMMENT;;$email_from";
 	$command = "bash -c \"java -jar GmsSender.jar '$message'\"";
 	$output = shell_exec($command);     
 
