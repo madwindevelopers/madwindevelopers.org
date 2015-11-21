@@ -174,7 +174,7 @@
 
 
 
-    <div id="external" class="page-section container">
+<!--    <div id="external" class="page-section container">
     <h1 class = "col-centered">External</h1>
       <div class="row centered">
         <div class="col-md-12 col-lg-6 col-lg-offset-3">          <h3 class="img-title-header"><img align="middle" height="50px" src="assets/img/mwlogo_no_back_500_green.png">					<span><a href="http://review.madwindevelopers.org">Gerrit Code Review</a></span></h3>
@@ -182,7 +182,7 @@
         </div>
       </div>
         <hr>
-    </div>
+    </div>-->
     <div class = "container">
       <div class = "row centered">
           
