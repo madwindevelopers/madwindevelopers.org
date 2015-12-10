@@ -196,7 +196,7 @@
               <h3>Comment Form</h3>
         </div>
 
-<form role="form" method="post" action="email_comment.php">
+      <form role="form" method="post" action="email_comment.php">
 
         <div class = "row">
             <div class = "col-sm-5 col-xs-offset-1 col-sm-offset-1 col-md-offset-2">
@@ -231,24 +231,29 @@
           <div class = "col-sm-5 col-xs-offset-1 col-sm-offset-0">
 
 
-              <div class="form-group">
-                <label class="control-label">Comment</label>
-                <div class="controls">
-
-                  <textarea class="form-control" name="comments" placeholder="Comment" 
-                  style="height: 180px; "></textarea>
-                </div>
+            <div class="form-group">
+              <label class="control-label">
+                Comment
+              </label>
+                
+              <div class="controls">
+                <textarea class="form-control" name="comments" placeholder="Comment" 
+                  style="height: 180px; ">
+                </textarea>
               </div>
+            </div>
 
-              <button class="btn btn-primary" type="submit" value="submit" 
-              name="email_comments" action="email_comment.php">Submit</button>
+            <button class="btn btn-primary" type="submit" value="submit" 
+            name="email_comments" action="email_comment.php">
+              Submit
+            </button>
           </div>
         </div>
-        </form>
-</div>
-<div class="container">
-    <hr>
-</div>
+      </form>
+    </div>
+    <div class="container">
+      <hr>
+    </div>
 
 
 
@@ -273,24 +278,28 @@
     <div class = "container">
       <div class = "row centered">
           
-          <form class = "form-inline" role="form">
-            <h4>Mailing List</h4>
-            <p>Enter your email address below to join our mailing list.</p>
-          </form>
+        <form class = "form-inline" role="form">
+          <h4>
+            Mailing List
+          </h4>
+          <p>
+            Enter your email address below to join our mailing list.
+          </p>
+        </form>
           
       </div>
       <div class = "row centered">
           
-          <form class = "form-inline" role = "form" method = "post" 
-          action = "add_to_email_list.php">
-            <div class = "form-group">
-              <input type = "email" class="col-centered form-control" 
-              id = "exampleInputEmail1" placeholder = "Enter your email address" 
-              name = "invite_email">
-            </div>
-            <button type = "submit" value = "submit" name = "email_invite" 
-            class = "btn btn-warning btn-lg">Invite Me!</button>
-          </form>
+        <form class = "form-inline" role = "form" method = "post" 
+        action = "add_to_email_list.php">
+          <div class = "form-group">
+            <input type = "email" class="col-centered form-control" 
+            id = "exampleInputEmail1" placeholder = "Enter your email address" 
+            name = "invite_email">
+          </div>
+          <button type = "submit" value = "submit" name = "email_invite" 
+          class = "btn btn-warning btn-lg">Invite Me!</button>
+        </form>
           
       </div>
       <!-- /row -->
