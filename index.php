@@ -11,10 +11,18 @@
       <div class="container">
         <div class="navbar-header">
 		
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" 
+          data-target=".navbar-collapse">
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><b>MADWIN DEVELOPERS</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+          <a class="navbar-brand" href="#">
+            <b>
+              MADWIN DEVELOPERS
+            </b>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          </a>
         </div>
 		
         <div class="navbar-collapse collapse hidden-lg">
@@ -52,12 +60,25 @@
 		
           <div class="col-sm-6">
             <h1>Madwin Developers</h1>
-            <p>Madwin Developers is a small company comprised of my partner and myself. My partner heads the creative development/motivation side where as myself is the technical expert. Developing for android is not our main jobs but rather a fun hobby we do in our free time. &nbsp; Everything we develop is merely for fun. Check out our <a href="https://play.google.com/store/apps/dev?id=6450798511126695180">Google Play Developer</a> page.&nbsp; Hope you enjoy our work and please fill out a survey with your comment or ideas.</p>
+            <p>
+              Madwin Developers is a small company comprised of my partner and myself. 
+              My partner heads the creative development/motivation side where as myself 
+              is the technical expert. Developing for android is not our main jobs 
+              but rather a fun hobby we do in our free time. &nbsp; Everything we 
+              develop is merely for fun. Check out our 
+              <a href="https://play.google.com/store/apps/dev?id=6450798511126695180">
+                Google Play Developer
+              </a> 
+              page.&nbsp; Hope you enjoy our work and please fill out a survey with 
+              your comment or ideas.
+            </p>
           </div>
 		  
           <!-- /col-lg-6 -->
           <div class="col-sm-6 col-xs-offset-1 col-sm-offset-0">
-            <img class="img-responsive" src="assets/img/screenshot_carhud_glare_shadow_525x881.png">
+            <img class="img-responsive" 
+            src="assets/img/screenshot_carhud_glare_shadow_525x881.png">
+            </img>
           </div>
           <!-- /col-lg-6 -->
 		  
@@ -75,14 +96,41 @@
 		<div class="row">
 		  
 			<div class="page-section col-sm-4" id="carhud">			  
-				<h3 class="img-title-header">				<img src="assets/img/carhud_app_icon.png" alt="CarHUD App Icon" align="bottom" height="70">CarHUD</h3>
-				<p>CarHUD is a heads-up display for your vehicle. The app shows current notifications, media player information, and has a map with route guidance.<br><br>
-				Check out the source code on GitHub: <pre><a class = "hyperlink" href="https://github.com/madwindevelopers/carhud" target="_blank">https://github.com/madwindevelopers/carhud</a></pre><br><br>
-				<a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.madwin.carhud" target="_blank"> Download on Google Play </a></p>
+				<h3 class="img-title-header">				
+          <img src="assets/img/carhud_app_icon.png" alt="CarHUD App Icon" align="bottom" 
+          height="70"></img>
+            CarHUD
+        </h3>
+				<p>
+          CarHUD is a heads-up display for your vehicle. The app shows current 
+          notifications, media player information, and has a map with route 
+          guidance.
+          <br>
+          <br>
+				  Check out the source code on GitHub: 
+            <pre>
+              <a class = "hyperlink" href="https://github.com/madwindevelopers/carhud" 
+              target="_blank">
+                https://github.com/madwindevelopers/carhud
+              </a>
+            </pre>
+            <br>
+            <br>
+  				<a class="hyperlink" 
+          href="https://play.google.com/store/apps/details?id=com.madwin.carhud" 
+          target="_blank"> 
+            Download on Google Play 
+          </a>
+        </p>
 			</div>
 			
 			<div class = "page-section col-sm-4" id = "mwcalc">
-				<h3 class = "img-title-header"> <img src="assets/img/mwcalc_app_icon.png" alt="MWCalc App Icon" align="bottom" height="70">MWCalc</h3>
+				<h3 class = "img-title-header"> 
+          <img src="assets/img/mwcalc_app_icon.png" alt="MWCalc App Icon" 
+          align="bottom" height="70">
+            MWCalc
+          </img>
+        </h3>
 				<p>
 					MWCalc is an experiment in design and development by the all
 					aspiring software designer engineers at Madwin Developers. Madwin's
@@ -93,14 +141,34 @@
 					designing this app as a side project in orger to learn java and
 					android programming better. More refinements and additions are
 					continuously being built into the application with hopes of the
-					initial release soon. Stay tuned for more updates.... </br> </br> Check out
-					the source code on github:  <pre><a class = "hyperlink" href="https://github.com/andrewrohde/MWCalc" target="_blank">https://github.com/andrewrohde/MWCalc</a></pre><br><br>
-				<a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.madwin.mwcalc" target="_blank"> Download on Google Play </a></p>
+					initial release soon. Stay tuned for more updates.... 
+          </br> 
+          </br> 
+          Check out the source code on github:  
+          <pre>
+            <a class = "hyperlink" href="https://github.com/andrewrohde/MWCalc" 
+            target="_blank">
+              https://github.com/andrewrohde/MWCalc
+            </a>
+          </pre>
+          <br>
+          <br>
+				<a class="hyperlink" 
+        href="https://play.google.com/store/apps/details?id=com.madwin.mwcalc" 
+        target="_blank"> 
+          Download on Google Play 
+          </a>
+        </p>
 			</div>
 			
 			<div class = "page-section col-sm-4" id = "mwbar">
-				<h3 class = "img-title-header"> <img src="assets/img/mwbar_app_icon.png" alt="MWBar App Icon" align="bottom" height="70">MWBar</h3>
-				<p>MWBar is a simple app based on the UCCW apk
+				<h3 class = "img-title-header"> 
+        <img src="assets/img/mwbar_app_icon.png" alt="MWBar App Icon" align="bottom" 
+        height="70">
+          MWBar
+        </h3>
+				<p>
+          MWBar is a simple app based on the UCCW apk
 					template. I've created a minimal status bar (minus the
 					notifications) which shows the time, date and battery status. Each
 					of these info areas has a hotspot associated with it to connect the
@@ -108,13 +176,21 @@
 					battery statistics. There is a basic grey background and a glass
 					image background version of the bar. This app is compatible only
 					with UCCW. More features will be added in the future. Follow the
-					link below to download from the play store. <br><br>
-				<a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.madwindevelopers.mwbar" target="_blank"> Download on Google Play </a></p>
+					link below to download from the play store. 
+          <br>
+          <br>
+				  <a class="hyperlink" 
+          href="https://play.google.com/store/apps/details?id=com.madwindevelopers.mwbar" 
+          target="_blank"> 
+            Download on Google Play 
+          </a>
+        </p>
 			</div>
 		
       </div>
     </div>
-    <div id="contact" class="page-section container" style="background-color: #DFDFDF; padding-bottom:12px;">
+    <div id="contact" class="page-section container" 
+      style="background-color: #DFDFDF; padding-bottom:12px;">
         <h1 class = "col-centered">Contact</h1>
         <div class="centered">
               <h3>Comment Form</h3>
@@ -159,11 +235,13 @@
                 <label class="control-label">Comment</label>
                 <div class="controls">
 
-                  <textarea class="form-control" name="comments" placeholder="Comment" style="height: 180px; "></textarea>
+                  <textarea class="form-control" name="comments" placeholder="Comment" 
+                  style="height: 180px; "></textarea>
                 </div>
               </div>
 
-              <button class="btn btn-primary" type="submit" value="submit" name="email_comments" action="email_comment.php">Submit</button>
+              <button class="btn btn-primary" type="submit" value="submit" 
+              name="email_comments" action="email_comment.php">Submit</button>
           </div>
         </div>
         </form>
@@ -177,8 +255,17 @@
 <!--    <div id="external" class="page-section container">
     <h1 class = "col-centered">External</h1>
       <div class="row centered">
-        <div class="col-md-12 col-lg-6 col-lg-offset-3">          <h3 class="img-title-header"><img align="middle" height="50px" src="assets/img/mwlogo_no_back_500_green.png">					<span><a href="http://review.madwindevelopers.org">Gerrit Code Review</a></span></h3>
-          <p>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</p>
+        <div class="col-md-12 col-lg-6 col-lg-offset-3">          
+          <h3 class="img-title-header"><img align="middle" height="50px" 
+          src="assets/img/mwlogo_no_back_500_green.png">					
+            <span>
+              <a href="http://review.madwindevelopers.org">Gerrit Code Review</a>
+            </span>
+          </h3>
+          <p>
+            Gerrit is a web based code review system, facilitating online code 
+            reviews for projects using the Git version control system.
+          </p>
         </div>
       </div>
         <hr>
@@ -194,11 +281,15 @@
       </div>
       <div class = "row centered">
           
-          <form class = "form-inline" role = "form" method = "post" action = "add_to_email_list.php">
+          <form class = "form-inline" role = "form" method = "post" 
+          action = "add_to_email_list.php">
             <div class = "form-group">
-              <input type = "email" class="col-centered form-control" id = "exampleInputEmail1" placeholder = "Enter your email address" name = "invite_email">
+              <input type = "email" class="col-centered form-control" 
+              id = "exampleInputEmail1" placeholder = "Enter your email address" 
+              name = "invite_email">
             </div>
-            <button type = "submit" value = "submit" name = "email_invite" class = "btn btn-warning btn-lg">Invite Me!</button>
+            <button type = "submit" value = "submit" name = "email_invite" 
+            class = "btn btn-warning btn-lg">Invite Me!</button>
           </form>
           
       </div>
@@ -218,9 +309,13 @@
       
 
       
-    <!-- Bootstrap core JavaScript==================================================- ->        <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;"></script>
+    <!-- Bootstrap core JavaScript==================================================- ->       
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" 
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+    </script>
+    <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;">
+    </script>
     <script type="text/javascript">
         $('.nav a').on('click', function(){
             $(".btn-navbar").click(); //bootstrap 2.x
