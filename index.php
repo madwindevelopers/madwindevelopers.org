@@ -173,7 +173,7 @@
           MWBar
         </h3>
 				<p>
-          MWBar is a simple app based on the UCCW apk
+          MWBar is a simple app based on the UCCW apkmad
 					template. I've created a minimal status bar (minus the
 					notifications) which shows the time, date and battery status. Each
 					of these info areas has a hotspot associated with it to connect the
