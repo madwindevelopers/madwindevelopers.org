@@ -59,7 +59,9 @@
         <div class="row">
 		
           <div class="col-sm-6">
-            <h1>Madwin Developers</h1>
+            <h1>
+              Madwin Developers
+            </h1>
             <p>
               Madwin Developers is a small company comprised of my partner and myself. 
               My partner heads the creative development/motivation side where as myself 
@@ -92,21 +94,24 @@
     <!-- /headerwrap -->
     <!-- /container -->
     <div id = "apps" class = "page-section container">
-		<h1>Apps</h1>
+		  <h1>
+        Apps
+      </h1>
 		<div class="row">
 		  
 			<div class="page-section col-sm-4" id="carhud">			  
 				<h3 class="img-title-header">				
           <img src="assets/img/carhud_app_icon.png" alt="CarHUD App Icon" align="bottom" 
-          height="70"></img>
+          height="70">
+          </img>
             CarHUD
         </h3>
 				<p>
           CarHUD is a heads-up display for your vehicle. The app shows current 
           notifications, media player information, and has a map with route 
           guidance.
-          <br>
-          <br>
+          <br/>
+          <br/>
 				  Check out the source code on GitHub: 
             <pre>
               <a class = "hyperlink" href="https://github.com/madwindevelopers/carhud" 
@@ -114,8 +119,8 @@
                 https://github.com/madwindevelopers/carhud
               </a>
             </pre>
-            <br>
-            <br>
+            <br/>
+            <br/>
   				<a class="hyperlink" 
           href="https://play.google.com/store/apps/details?id=com.madwin.carhud" 
           target="_blank"> 
@@ -142,8 +147,8 @@
 					android programming better. More refinements and additions are
 					continuously being built into the application with hopes of the
 					initial release soon. Stay tuned for more updates.... 
-          </br> 
-          </br> 
+          <br/> 
+          <br/> 
           Check out the source code on github:  
           <pre>
             <a class = "hyperlink" href="https://github.com/andrewrohde/MWCalc" 
@@ -151,8 +156,8 @@
               https://github.com/andrewrohde/MWCalc
             </a>
           </pre>
-          <br>
-          <br>
+          <br/>
+          <br/>
 				<a class="hyperlink" 
         href="https://play.google.com/store/apps/details?id=com.madwin.mwcalc" 
         target="_blank"> 
@@ -177,8 +182,8 @@
 					image background version of the bar. This app is compatible only
 					with UCCW. More features will be added in the future. Follow the
 					link below to download from the play store. 
-          <br>
-          <br>
+          <br/>
+          <br/>
 				  <a class="hyperlink" 
           href="https://play.google.com/store/apps/details?id=com.madwindevelopers.mwbar" 
           target="_blank"> 
@@ -191,9 +196,13 @@
     </div>
     <div id="contact" class="page-section container" 
       style="background-color: #DFDFDF; padding-bottom:12px;">
-        <h1 class = "col-centered">Contact</h1>
+        <h1 class = "col-centered">
+          Contact
+        </h1>
         <div class="centered">
-              <h3>Comment Form</h3>
+              <h3>
+                Comment Form
+              </h3>
         </div>
 
       <form role="form" method="post" action="email_comment.php">
@@ -201,7 +210,9 @@
         <div class = "row">
             <div class = "col-sm-5 col-xs-offset-1 col-sm-offset-1 col-md-offset-2">
               <div class="form-group">
-                <label class="control-label">Name</label>
+                <label class="control-label">
+                  Name
+                </label>
                 <div class="controls">
 
                   <input type="text" name="name" class="form-control" placeholder="Name">
