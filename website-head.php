@@ -5,7 +5,6 @@
  <head>
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
       <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
     <meta name="description">
     <meta name="author">
@@ -32,19 +31,14 @@
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <title>Madwin Developers</title>
     <!-- Bootstrap core CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!--<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">-->
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css">
     <!-- Fonts from Google Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet" type="text/css" data-cssintegration="font-family:Lato, serif;" data-familyname="Lato">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!--<link href="assets/css/sh-default.css" rel="stylesheet" default-stylesheet="true" type="text/css">-->
+    <!--<link href="http://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet" type="text/css" data-cssintegration="font-family:Lato, serif;" data-familyname="Lato">-->
+    <link href="assets/fonts/lato.css" rel="stylesheet" type="text/css" data-cssintegration="font-family:Lato, serif;" data-familyname="Lato">
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Google Analytics -->
     <script type="text/javascript">
       (function(i, s, o, g, r, a, m) {
@@ -62,8 +56,6 @@
       ga('send', 'pageview');
     </script>*/
 <!-- jquery scroll on click -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/scroll_onclick.js"></script>
 <!-- end jquery scroll on click -->
 </head>

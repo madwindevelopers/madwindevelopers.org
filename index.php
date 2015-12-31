@@ -331,9 +331,8 @@
       
     <!-- Bootstrap core JavaScript==================================================- ->       
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" 
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
-    </script>
+  
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" id="hiddenlpsubmitdiv" style="display: none;">
     </script>
     <script type="text/javascript">
