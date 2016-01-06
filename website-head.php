@@ -31,11 +31,9 @@
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <title>Madwin Developers</title>
     <!-- Bootstrap core CSS -->
-<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- Custom styles for this template -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- custom theme styles -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css">
-    <!-- Fonts from Google Fonts -->
-    <!--<link href="http://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet" type="text/css" data-cssintegration="font-family:Lato, serif;" data-familyname="Lato">-->
     <link href="assets/fonts/lato.css" rel="stylesheet" type="text/css" data-cssintegration="font-family:Lato, serif;" data-familyname="Lato">
 
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -57,6 +55,5 @@
     </script>*/
 <!-- jquery scroll on click -->
 <script type="text/javascript" src="assets/js/scroll_onclick.js"></script>
-<!-- end jquery scroll on click -->
 </head>
 
