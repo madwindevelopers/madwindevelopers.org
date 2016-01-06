@@ -44,9 +44,6 @@
               </ul>
               <a href="#" class="scroll-link" data-id="contact">Contact</a>
             </li>
-            <li data-toggle="collapse" data-target=".nav-collapse">
-              <a href="#" class="scroll-link" data-id="external">External</a>
-            </li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -265,27 +262,6 @@
     <div class="container">
       <hr>
     </div>
-
-
-
-<!--    <div id="external" class="page-section container">
-    <h1 class = "col-centered">External</h1>
-      <div class="row centered">
-        <div class="col-md-12 col-lg-6 col-lg-offset-3">          
-          <h3 class="img-title-header"><img align="middle" height="50px" 
-          src="assets/img/mwlogo_no_back_500_green.png">					
-            <span>
-              <a href="http://review.madwindevelopers.org">Gerrit Code Review</a>
-            </span>
-          </h3>
-          <p>
-            Gerrit is a web based code review system, facilitating online code 
-            reviews for projects using the Git version control system.
-          </p>
-        </div>
-      </div>
-        <hr>
-    </div>-->
     <div class = "container">
       <div class = "row centered">
           
