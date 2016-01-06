@@ -21,7 +21,6 @@
             <b>
               MADWIN DEVELOPERS
             </b>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           </a>
         </div>
 		
