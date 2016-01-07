@@ -62,12 +62,12 @@
               Madwin Developers is a small company comprised of my partner and myself. 
               My partner heads the creative development/motivation side where as myself 
               is the technical expert. Developing for android is not our main jobs 
-              but rather a fun hobby we do in our free time. &nbsp; Everything we 
+              but rather a fun hobby we do in our free time. Everything we 
               develop is merely for fun. Check out our 
               <a href="https://play.google.com/store/apps/dev?id=6450798511126695180">
                 Google Play Developer
               </a> 
-              page.&nbsp; Hope you enjoy our work and please fill out a survey with 
+              page. Hope you enjoy our work and please fill out a survey with 
               your comment or ideas.
             </p>
           </div>
