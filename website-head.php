@@ -2,12 +2,10 @@
 <!doctype html>
 <html lang="en">
   
- <head>
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
-    <meta name="description">
-    <meta name="author">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
     <meta name="keywords" content="madwindevelopers, mw, madwin, developers, android, development, applications, apps">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#109f49">
@@ -53,7 +51,7 @@
       ga('create', 'UA-60457375-1', 'auto');
       ga('send', 'pageview');
     </script>*/
-<!-- jquery scroll on click -->
-<script type="text/javascript" src="assets/js/scroll_onclick.js"></script>
+    <!-- jquery scroll on click -->
+    <script type="text/javascript" src="assets/js/scroll_onclick.js"></script>
 </head>
 

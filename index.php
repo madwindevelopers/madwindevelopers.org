@@ -139,7 +139,7 @@
 					is the first step in what will be a long line of advanced Android
 					applications. MWCalc is currently a work in progress. As you can
 					tell by the name this will be a calculator application. I'm
-					designing this app as a side project in orger to learn java and
+					designing this app as a side project in order to learn java and
 					android programming better. More refinements and additions are
 					continuously being built into the application with hopes of the
 					initial release soon. Stay tuned for more updates.... 
@@ -154,10 +154,10 @@
           </pre>
           <br/>
           <br/>
-				<a class="hyperlink" 
-        href="https://play.google.com/store/apps/details?id=com.madwin.mwcalc" 
-        target="_blank"> 
-          Download on Google Play 
+				  <a class="hyperlink" 
+          href="https://play.google.com/store/apps/details?id=com.madwin.mwcalc" 
+          target="_blank"> 
+            Download on Google Play 
           </a>
         </p>
 			</div>
