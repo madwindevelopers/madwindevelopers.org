@@ -83,11 +83,10 @@
 		  
 			<div class="page-section col-sm-4" id="carhud">			  
 				<h3 class="img-title-header">				
-          <img src="assets/img/carhud_app_icon.png" alt="CarHUD App Icon" align="bottom" 
-          height="70"/>
+          <img class="middle" src="assets/img/carhud_app_icon.png" alt="CarHUD App Icon"     height="70"/>
             CarHUD
         </h3>
-				<p>
+        <p>
           CarHUD is a heads-up display for your vehicle. The app shows current 
           notifications, media player information, and has a map with route 
           guidance.
@@ -112,8 +111,8 @@
 			
 			<div class = "page-section col-sm-4" id = "mwcalc">
 				<h3 class = "img-title-header"> 
-          <img src="assets/img/mwcalc_app_icon.png" alt="MWCalc App Icon" 
-          align="bottom" height="70"/>
+          <img class="middle" src="assets/img/mwcalc_app_icon.png" alt="MWCalc App Icon" 
+          height="70"/>
             MWCalc
         </h3>
 				<p>
@@ -147,7 +146,7 @@
 			</div>
 			<div class = "page-section col-sm-4" id = "mwbar">
 				<h3 class = "img-title-header"> 
-        <img src="assets/img/mwbar_app_icon.png" alt="MWBar App Icon" align="bottom" 
+        <img class="middle" src="assets/img/mwbar_app_icon.png" alt="MWBar App Icon"
         height="70"/>
           MWBar
         </h3>
@@ -221,7 +220,7 @@
               </div>
             </div>
             <button class="btn btn-primary" type="submit" value="submit" 
-            name="email_comments" action="email_comment.php">
+            name="email_comments" formaction="email_comment.php">
               Submit
             </button>
           </div>
@@ -243,7 +242,7 @@
         </form>
       </div>
       <div class = "row centered">          
-        <form class = "form-inline" role = "form" method = "post" 
+        <form class = "form-inline" method = "post" 
         action = "add_to_email_list.php">
           <div class = "form-group">
             <input type = "email" class="col-centered form-control" 
@@ -270,7 +269,7 @@
       
 
       
-    <!-- Bootstrap core JavaScript==================================================- ->       
+    <!-- Bootstrap core JavaScript================================================== -->       
     <!-- Placed at the end of the document so the pages load faster -->
   
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
