@@ -232,7 +232,7 @@
     </div>
     <div class = "container">
       <div class = "row centered">          
-        <form class = "form-inline" role="form">
+        <form class = "form-inline">
           <h4>
             Mailing List
           </h4>
