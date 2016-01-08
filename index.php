@@ -181,7 +181,7 @@
             Comment Form
           </h3>
         </div>
-      <form role="form" method="post" action="email_comment.php">
+      <form method="post" action="email_comment.php">
         <div class = "row">
             <div class = "col-sm-5 col-xs-offset-1 col-sm-offset-1 col-md-offset-2">
               <div class="form-group">
