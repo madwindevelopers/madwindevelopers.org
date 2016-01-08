@@ -93,14 +93,16 @@
           <br/>
           <br/>
 				  Check out the source code on GitHub: 
-            <pre>
-              <a class = "hyperlink" href="https://github.com/madwindevelopers/carhud" 
-              target="_blank">
-                https://github.com/madwindevelopers/carhud
-              </a>
-            </pre>
-            <br/>
-            <br/>
+        </p>  
+        <pre>
+          <a class = "hyperlink" href="https://github.com/madwindevelopers/carhud" 
+          target="_blank">
+            https://github.com/madwindevelopers/carhud
+          </a>
+        </pre>
+        <p>
+          <br/>
+          <br/>
   				<a class="hyperlink" 
           href="https://play.google.com/store/apps/details?id=com.madwin.carhud" 
           target="_blank"> 
@@ -129,12 +131,14 @@
           <br/> 
           <br/> 
           Check out the source code on github:  
-          <pre>
-            <a class = "hyperlink" href="https://github.com/andrewrohde/MWCalc" 
-            target="_blank">
-              https://github.com/andrewrohde/MWCalc
-            </a>
-          </pre>
+        </p>
+        <pre>
+          <a class = "hyperlink" href="https://github.com/andrewrohde/MWCalc" 
+          target="_blank">
+            https://github.com/andrewrohde/MWCalc
+          </a>
+        </pre>
+        <p>
           <br/>
           <br/>
 				  <a class="hyperlink" 
