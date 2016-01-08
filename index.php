@@ -1,16 +1,10 @@
-
-
-<?php
-    
+<?php    
     include 'website-head.php';
 ?>
-
-  
   <body style="cursor: auto;">
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-		
           <button type="button" class="navbar-toggle" data-toggle="collapse" 
           data-target=".navbar-collapse">
             <span class="icon-bar"></span> 
@@ -23,7 +17,6 @@
             </b>
           </a>
         </div>
-		
         <div class="navbar-collapse collapse hidden-lg">
           <ul class="nav navbar-nav navbar-right">
             <li data-toggle="collapse" data-target=".nav-collapse">
@@ -47,9 +40,7 @@
         </div>
         <!--/.nav-collapse -->
       </div>
-	  
     </div>
-	
     <div id="headerwrap">
       <div class="container">
         <div class="row">
@@ -71,21 +62,16 @@
               your comment or ideas.
             </p>
           </div>
-		  
           <!-- /col-lg-6 -->
           <div class="col-sm-6 col-xs-offset-1 col-sm-offset-0">
             <img class="img-responsive" 
-            src="assets/img/screenshot_carhud_glare_shadow_525x881.png">
-            </img>
+            src="assets/img/screenshot_carhud_glare_shadow_525x881.png" alt="Carhud screenshot"/>
           </div>
           <!-- /col-lg-6 -->
-		  
         </div>
         <!-- /row -->
-		
       </div>
       <!-- /container -->
-	  
     </div>
     <!-- /headerwrap -->
     <!-- /container -->
@@ -98,8 +84,7 @@
 			<div class="page-section col-sm-4" id="carhud">			  
 				<h3 class="img-title-header">				
           <img src="assets/img/carhud_app_icon.png" alt="CarHUD App Icon" align="bottom" 
-          height="70">
-          </img>
+          height="70"/>
             CarHUD
         </h3>
 				<p>
@@ -128,9 +113,8 @@
 			<div class = "page-section col-sm-4" id = "mwcalc">
 				<h3 class = "img-title-header"> 
           <img src="assets/img/mwcalc_app_icon.png" alt="MWCalc App Icon" 
-          align="bottom" height="70">
+          align="bottom" height="70"/>
             MWCalc
-          </img>
         </h3>
 				<p>
 					MWCalc is an experiment in design and development by the all
@@ -161,11 +145,10 @@
           </a>
         </p>
 			</div>
-			
 			<div class = "page-section col-sm-4" id = "mwbar">
 				<h3 class = "img-title-header"> 
         <img src="assets/img/mwbar_app_icon.png" alt="MWBar App Icon" align="bottom" 
-        height="70">
+        height="70"/>
           MWBar
         </h3>
 				<p>
@@ -187,7 +170,6 @@
           </a>
         </p>
 			</div>
-		
       </div>
     </div>
     <div id="contact" class="page-section container" 
@@ -196,13 +178,11 @@
           Contact
         </h1>
         <div class="centered">
-              <h3>
-                Comment Form
-              </h3>
+          <h3>
+            Comment Form
+          </h3>
         </div>
-
       <form role="form" method="post" action="email_comment.php">
-
         <div class = "row">
             <div class = "col-sm-5 col-xs-offset-1 col-sm-offset-1 col-md-offset-2">
               <div class="form-group">
@@ -210,46 +190,36 @@
                   Name
                 </label>
                 <div class="controls">
-
                   <input type="text" name="name" class="form-control" placeholder="Name">
                 </div>
               </div>
-
               <div class="form-group">
                 <label class="control-label">Email</label>
                 <div class="controls">
-
                   <input type="email" name="email" class="form-control" placeholder="Email">
-
                 </div>
               </div>
-
               <div class="form-group">
-                <label class="control-label">Subject</label>
+                <label class="control-label">
+                  Subject
+                </label>
                 <div class="controls">
 
                   <input type="text" name="subject" class="form-control" placeholder="Subject">
-
                 </div>
               </div>
             </div>
-
-
           <div class = "col-sm-5 col-xs-offset-1 col-sm-offset-0">
-
-
             <div class="form-group">
               <label class="control-label">
                 Comment
-              </label>
-                
+              </label>                
               <div class="controls">
                 <textarea class="form-control" name="comments" placeholder="Comment" 
                   style="height: 180px; ">
                 </textarea>
               </div>
             </div>
-
             <button class="btn btn-primary" type="submit" value="submit" 
             name="email_comments" action="email_comment.php">
               Submit
@@ -262,8 +232,7 @@
       <hr>
     </div>
     <div class = "container">
-      <div class = "row centered">
-          
+      <div class = "row centered">          
         <form class = "form-inline" role="form">
           <h4>
             Mailing List
@@ -272,10 +241,8 @@
             Enter your email address below to join our mailing list.
           </p>
         </form>
-          
       </div>
-      <div class = "row centered">
-          
+      <div class = "row centered">          
         <form class = "form-inline" role = "form" method = "post" 
         action = "add_to_email_list.php">
           <div class = "form-group">
@@ -286,7 +253,6 @@
           <button type = "submit" value = "submit" name = "email_invite" 
           class = "btn btn-warning btn-lg">Invite Me!</button>
         </form>
-          
       </div>
       <!-- /row -->
       <hr>
