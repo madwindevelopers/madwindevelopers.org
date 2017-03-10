@@ -1,9 +1,3 @@
-push_website
-.settings/*
-.project
-.metadata/*
-email_list
-.htaccess
-*.jar
-comment_list
-.buildpath
+*.ini
+*.lock
+__pycache__
