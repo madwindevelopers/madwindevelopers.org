@@ -26,7 +26,10 @@ load_environment_file(os.path.join(BASE_DIR, 'environment.ini'))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', None)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+if os.environ.get('DJANGO_DEBUG', False) == "True":
+	DEBUG = True
+else:
+	DEBUG = False
 
 ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', '*').split()
 
