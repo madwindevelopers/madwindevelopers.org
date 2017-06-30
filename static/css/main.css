@@ -37,7 +37,8 @@ p {
     text-align: center
 }
 #headerwrap a:hover {
-    color: #2c3e50;
+    /*color: #2c3e50;*/
+    color: #fff;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -159,6 +160,10 @@ i {
 #headerwrap a:visited {
     color: #fff;
 }
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
 .navbar-sub-list {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -169,7 +174,7 @@ i {
     margin-bottom: 12px
 }
 .navbar-sub-item a:hover {    
-  color: #333;
+  color: #fff;
 }
 .img-title-header img {
     margin: 0px 20px 0px 0px;

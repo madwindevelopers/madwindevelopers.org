@@ -2,3 +2,9 @@
 *.lock
 __pycache__
 venv
+
+config.js
+
+node_modules/
+
+npm-debug.log
