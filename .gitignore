@@ -6,5 +6,6 @@ venv
 config.js
 
 node_modules/
+prod/
 
 npm-debug.log

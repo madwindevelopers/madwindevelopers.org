@@ -1,19 +1,17 @@
 var express = require('express');
-var compression = require('compression');
 var app = express();
-var emailFormJS = require('./app/email-form.js');
-var messageFormJS = require('./app/message-form.js');
+var router = express.Router();
+var compression = require('compression');
+var emailForm = require('./routes/email-form.js');
+var messageForm = require('./routes/message-form.js');
 var bodyParser = require('body-parser');
 var ip = require('ip');
-var recaptcha = require('./app/recaptcha.js');
 var config = require('./config.js');
+var logVisitor = require('./api/log-visitor.js');
 var port = 15486;
 var env = config.config.environment;
 
-//console.log("ENV : " + app.get('env'));
 console.log("ENV : " + env);
-console.log('port prod : ' + config.config.port_production);
-console.log('port dev : ' + config.config.port_development);
 
 if (env == 'production') {
     port = config.config.port_production;
@@ -21,11 +19,15 @@ if (env == 'production') {
     port = config.config.port_development;
 }
 
-app.use(compression());
-app.use(express.static(__dirname + '/static'));
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
-app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/index.html', function(err) {
+app.use(compression());
+app.use(express.static(__dirname + '/prod/static'));
+
+router.get('/', function(req, res) {
+    logVisitor.logVisitor(req);
+    res.sendFile(__dirname + '/prod/html/index.html', function(err) {
         if (err) {
             console.log('Error sending index.html');
         } else {
@@ -34,53 +36,18 @@ app.get('/', function(req, res) {
     })
 });
 
-// parse application/x-www-form-urlencoded
-var urlencodedParser = bodyParser.urlencoded({ extended: false });
-// parse application/json
-// var jsonParser = app.use(bodyParser.json());
-
-app.get('/favicon.ico', function(req, res) {
-    res.sendFile(__dirname + '/static/img/favicon/favicon.ico');
+router.get('/favicon.ico', function(req, res) {
+    res.sendFile(__dirname + '/prod/static/img/favicon/favicon.ico');
 })
 
-app.post('/message-form', urlencodedParser, function(req, res) {
-    var reqBody = req.body;
-    if (reqBody.Email && reqBody.Message) {
-        recaptcha.verify(req, function(recapResult) {
-            console.log("return form recaptcha");
-            if (recapResult.success) {
-                console.log("return from recaptcha success");
-                messageFormJS.messagePosted(reqBody, function(result) {
-                    res.json(result);
-                });           
-            } else {
-                console.log("return form recaptcha not success");
-                res.json(recapResult.details);
-            }
-        });
-    } else {
-        res.json({
-            success: false,
-            details: 'Error: Must include Email and Message'
-        });
-    }
-});
+app.use('/message-form', messageForm);
+app.use('/email-form', emailForm);
 
-
-app.post('/email-form', urlencodedParser, function(req, res) {
-    console.log("Email-form: %j", req.body);
-
-    var email = req.body.email;
-    if (email) {
-        emailFormJS.emailRequest(email, function(result) {
-            res.json(result);
-        });             
-    } else {
-        res.send('Unable to find email in form');
-    }
-});
+app.use(router);
 
 app.listen(port);
 
 console.log("Listening on " + ip.address() + ":" + port);
-//request.connection.remoteAddress
+
+
+
